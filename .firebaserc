@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "personal-172f4"
+  },
+  "targets": {
+    "personal-172f4": {
+      "hosting": {
+        "classifier": [
+          "tab-classifier"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
