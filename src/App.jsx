@@ -444,11 +444,12 @@ export default function App() {
         </div>
 
         <div className="project-actions">
-          {/* Batch Open All Tabs in Project */}
+          {/* Batch Open All Tabs in Project (Hidden as requested) */}
           <button 
             className="icon-btn" 
             title={`Open all ${project.tabs.length} tabs in browser`}
             onClick={(e) => handleOpenAllTabs(project, e)}
+            style={{ display: 'none' }}
           >
             <FolderOutput size={15} />
           </button>
@@ -608,7 +609,6 @@ export default function App() {
             <img src="/favicon.svg" alt="Tab Classifier Logo" className="brand-svg-logo" />
             <div>
               <h1 className="brand-title">Tab-classifier</h1>
-              <p className="brand-subtitle">Organize browser tab groups into sequential numbered flows</p>
             </div>
           </div>
 
